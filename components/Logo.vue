@@ -13,6 +13,3 @@
     </svg>
   </div>
 </template>
-
-<style>
-</style>
