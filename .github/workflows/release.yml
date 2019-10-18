@@ -1,0 +1,16 @@
+on:
+  release:
+    types: [created, edited]
+
+jobs:
+  release_job:
+    runs-on: ubuntu-latest
+    name: A job to do release stuff
+    steps:
+    - name: release action step
+      id: release
+      uses: actions/release-action@v1
+      with:
+        release-number: $GITHUB_REF
+    - name: Get the result message
+      run: echo "The time was ${{ steps.release.outputs.message }}"
