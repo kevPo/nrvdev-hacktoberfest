@@ -13,4 +13,4 @@ jobs:
       with:
         release-number: $GITHUB_REF
     - name: Get the result message
-      run: echo "The time was ${{ steps.release.outputs.message }}"
+      run: echo "${{ steps.release.outputs.message }}"
