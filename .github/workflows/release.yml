@@ -9,7 +9,7 @@ jobs:
     steps:
     - name: release action step
       id: release
-      uses: actions/release-action@v1
+      uses: kevPo/release-action@v1
       with:
         release-number: $GITHUB_REF
     - name: Get the result message
