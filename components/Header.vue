@@ -8,14 +8,6 @@
     </nuxt-link>
     <nuxt-link class="corner-pad link-but" to="/AddDev">Add Dev</nuxt-link>
   </section>
-  <!-- <ul>
-    <li>total count</li>
-    <li>number of devs</li>
-    <li>number > 4 PR's</li>
-    <li>Top 5</li>
-    <li>Those In</li>
-    <li>Those Out</li>
-  </ul> -->
 </template>
 
 <script>
@@ -29,17 +21,11 @@ export default {
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
 
 .link-but {
   align-items: center;
   background: transparent;
-  border: 4px solid #f15523;
+  border: 4px solid white;
   color: white;
   display: flex;
   font-size: 1em;

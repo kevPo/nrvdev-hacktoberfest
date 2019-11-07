@@ -47,4 +47,11 @@ body {
 a {
   text-decoration: none;
 }
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
 </style>
